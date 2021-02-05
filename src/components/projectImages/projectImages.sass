@@ -1,0 +1,66 @@
+.block-image
+  margin: 10px
+  border-radius: 5px
+
+.block-image__elem
+  width: 100%
+  border-radius: 5px
+  background-size: cover
+
+.description-ship-images
+  display: flex
+  align-items: center
+  margin: 16px auto
+  border-radius: 8px
+  border: 1px solid #BDBDBD
+  width: calc(100% - 20px)
+
+.description-ship-images__container
+  display: contents
+
+.description-ship-images__name-ship
+  margin: 10px
+  font-size: 24px
+  color: #000000
+  font-weight: 600
+  line-height: 29px
+
+.description-ship-images__date,
+.description-ship-images__name-rocket,
+.description-ship-images__result
+  margin: 10px
+  line-height: 22px
+
+.button
+  min-height: 80px
+  font-family: Inter
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 22px
+  color: #008AB7
+  border-top: none
+  border-bottom: none
+  border-left: none
+  border-right: 1px solid #BDBDBD
+  border-radius: 8px 0 0 8px
+  background: white
+
+.description-ship-images__not-image
+  width: 100%
+  text-align: center
+
+@media (max-width: 830px)
+  .description-ship-images
+    display: block
+
+  .description-ship-images__container
+    display: flex
+    flex-wrap: wrap
+
+  .button
+    min-height: 49px
+    width: 100%
+    border-right: none
+    border-bottom: 1px solid #BDBDBD
+    border-radius: 8px 8px 0 0
